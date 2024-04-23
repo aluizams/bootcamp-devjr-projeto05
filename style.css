@@ -10,7 +10,7 @@ input{
     width: 80%;
     height: 10px;;
     padding: 0.9rem;
-    font-size: 1.2rem;
+    font-size: 16px;
     
     border: 0;
     
@@ -23,7 +23,7 @@ input:focus {
    background-color: #aac9eb81;
 }
 
-button{
+.button{
     background-color: #0069D9;
     margin: auto;
     padding: 10px;
@@ -37,7 +37,7 @@ button{
     text-align: center;
     
 }
-button:hover{
+.button:hover{
     background-color: #0d74e2;
 }
 

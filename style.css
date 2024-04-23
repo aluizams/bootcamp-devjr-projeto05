@@ -3,6 +3,26 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+input{
+    
+    margin:auto;
+    border-radius: 10px;
+    width: 80%;
+    height: 10px;;
+    padding: 0.9rem;
+    font-size: 1.2rem;
+    
+    border: 0;
+    
+    margin: 10px 60px;
+            
+}
+
+input:focus {
+   outline: none;
+   background-color: #aac9eb81;
+}
+
 button{
     background-color: #0069D9;
     margin: auto;
@@ -72,9 +92,11 @@ button:hover{
 }
 .subtitle{
     font-weight: 700;
+    font-size: 18px;
     text-align: center;
     margin: auto;
     padding: 4px;
+    margin-top: 4px;
 }
 .text{
     text-align: center;

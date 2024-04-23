@@ -56,14 +56,18 @@
         <div class="container">
             <div class="subtitle">Dados Pessoais</div>
             <div class="display02">
-            <input>
-            <input>
-            <input>
+            <input type="text" placeholder="Nome">
+            <input type="phone" id="phone" placeholder="Telefone">
+            <input type="email" placeholder="E-mail">
             </div>
         </div>
         <button>Calcular</button>
     </div>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/jquery.mask.min.js"></script>
+    
+    <script>
+        $("#phone").mask("(99)99999-9999");
+    </script>
 </body>
 </html>
